@@ -1,38 +1,218 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  background-color: #1a1a1d;
+  height: 100vh;
+  color: #f9f9ed;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Navbar */
+.navbar {
+  background-color: #f9f9ed;
   display: flex;
-  flex-direction: column;
+  justify-content: space-around;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 100%;
+  line-height: 5rem;
+  top: 0;
+  position: sticky;
+  transition: all .8s ease-in-out;
+  background: linear-gradient(277deg, #283048, #859398);
+  background-size: 400% 400%;
+  -webkit-animation: AnimationName 30s ease infinite;
+  animation: AnimationName 30s ease infinite;
 }
 
-.App-link {
-  color: #61dafb;
+@-webkit-keyframes AnimationName {
+  0% {
+    background-position: 0% 51%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 51%;
+  }
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@keyframes AnimationName {
+  0% {
+    background-position: 0% 51%;
   }
-  to {
-    transform: rotate(360deg);
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 51%;
   }
 }
+
+.navbar.scrolled {
+  top: 0;
+  width: 100%;
+  left: 0;
+  right: 0;
+  position: fixed;
+  z-index: 1000;
+  transition: all .8s ease;
+}
+
+.left h1 {
+  font-size: 2.5rem;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.left h1::after {
+  content: ".";
+  color: #fff;
+  font-weight: bolder;
+}
+
+.checkbtn {
+  cursor: pointer;
+  display: none;
+  font-size: 1.8rem;
+}
+
+#check {
+  display: none;
+}
+
+.right ul {
+  margin: 0;
+  display: flex;
+  list-style: none;
+}
+
+.right ul li a {
+  padding: 10px 10px;
+  font-size: 1.2rem;
+  color: #f9f9ed;
+  margin-right: 20px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.6s;
+}
+
+.right ul li a:hover {
+  background-color: #f9f9ed;
+  border-radius: 7px;
+  color: #333138;
+}
+
+/* home */
+
+.home{
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.discription-content h2 {
+  line-height: 1.2;
+}
+
+.sub-title {
+  opacity: .8;
+}
+
+.discription-content .title{
+  font-size: 2.5rem;
+  font-weight: 400;
+  /* color: #3498db; */
+  color: #98B3E8;
+}
+.discription-content .title span{
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.discription-content .title-about{
+  font-size: 2rem;
+  color: #98B3E8;
+}
+
+.discription-content .title-about .words{
+  font-size: 2.5rem;
+  color: #fff;
+}
+
+#btn1 {
+  background-color: #fff;
+  color: #1a1a1d;
+  border: 2px solid #fff;
+}
+
+#btn2{
+  color:#ffffff;
+  border: 2px solid #fff;
+  transition: all .8s ease;
+}
+
+#btn1:hover {
+  color:#fff;
+  background-color: #1a1a1d;
+  transition: all .8s ease;
+}
+
+#btn2:hover{
+  background-color: #fff;
+  color: #1a1a1d;
+  border: 2px solid #fff;
+}
+
+@media (max-width:768px) {
+  .home {
+    margin-top: 60px;
+    margin-bottom: 55px;
+  }
+}
+
+
+
+/* navbar */
+@media (max-width: 768px) {
+  .list {
+    width: 100%;
+    background: linear-gradient(277deg, #283048, #859398);
+    background-size: 400% 400%;
+    -webkit-animation: AnimationName 30s ease infinite;
+    animation: AnimationName 30s ease infinite;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    transition: all 1s ease-in-out;
+    height: 26rem;
+  }
+
+  #check {
+    display: none;
+  }
+
+  .checkbtn {
+    display: block;
+  }
+
+  #check:checked~ul {
+    top: 5rem;
+    transition: all 0.8 ease-in-out;
+  }
+}
+
