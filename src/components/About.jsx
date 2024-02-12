@@ -7,7 +7,7 @@ import img from "../assets/images/img.jpg";
 const Home = () => {
 
     return (
-        <section id="about" className="about">
+        <section id="about" className="container-fluid about">
             <div className="container col-xxl-8 ">
                 <div className="row flex-lg-row align-items-center g-5">
                     <div className="col-10 col-sm-8 col-lg-4">
