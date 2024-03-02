@@ -2,7 +2,7 @@
 // style={{"marginTop": "80px" , "marginBottom": "80px"}}
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faInstagram, faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
-import img from "../assets/images/img.jpg";
+import img from "../assets/images/pngwing.com.png";
 
 const Home = () => {
 

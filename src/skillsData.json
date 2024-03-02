@@ -2,26 +2,31 @@
     {
         "id":1,
         "source":"/images/js.jpg",
-        "title":"JavaScript"
+        "title":"JavaScript",
+        "url":"https://developer.mozilla.org/en-US/docs/Web/JavaScript"
     },
     {
         "id":2,
         "source":"/images/mongodb.png",
-        "title":"MongoDB"
+        "title":"MongoDB",
+        "url":"https://www.mongodb.com/docs/"
     },
     {
         "id":3,
         "source":"/images/express.jpg",
-        "title":"Express.Js"
+        "title":"Express.Js",
+        "url":"https://expressjs.com/en/starter/hello-world.html"
     },
     {
         "id":4,
         "source":"/images/reactjs.png",
-        "title":"React.Js"
+        "title":"React.Js",
+        "url":"https://react.dev/learn"
     },
     {
         "id":5,
         "source":"/images/nodejs.avif",
-        "title":"Node.Js"
+        "title":"Node.Js",
+        "url":"https://nodejs.org/docs/latest/api/"
     }
 ]

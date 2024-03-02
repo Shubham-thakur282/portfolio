@@ -16,7 +16,6 @@ body{
 
 /* Navbar */
 .navbar {
-  background-color: #f9f9ed;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -218,6 +217,64 @@ body{
   color:#fff;
   background-color: #1d1d24;
   transition: all .8s ease;
+}
+
+/* skills */
+
+
+.box{
+  cursor: pointer;
+}
+
+.box:hover{
+  transform: scale(1.01);
+}
+
+.box-heading{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  color: #fff;
+  gap: 10px;
+}
+
+.box-heading p{
+  font-size: 1.2rem;
+}
+
+.box .card{
+  overflow: hidden;
+}
+
+.box .card img{
+  background-size: cover;
+}
+
+.box .card-body{
+  background-color: #fff;
+}
+
+.box .card-body h3{
+  color: #1a1a1d;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.nav-heading {
+  position: relative;
+}
+
+
+.nav-heading::after{
+  position: absolute;
+  content: "";
+  width: 100%;
+  bottom: -10px;
+  height: 2px;
+  left: 0;
+  background-color: #fff;
 }
 
 
