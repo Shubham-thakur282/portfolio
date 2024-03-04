@@ -1,5 +1,4 @@
 
-// import img from "../assets/images/htmlcss.webp";
 import skill from "../skillsData";
 import Box from "./Box";
 
