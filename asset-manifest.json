@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.bba4e604.css",
-    "main.js": "/portfolio/static/js/main.57da8065.js",
+    "main.js": "/portfolio/static/js/main.a767cf9d.js",
     "static/media/img.jpg": "/portfolio/static/media/img.6ad7ca2571473d9ba5ed.jpg",
     "static/media/Resume.pdf": "/portfolio/static/media/Resume.0ef18aa5f92a02ea0d02.pdf",
     "static/media/pngwing.com.png": "/portfolio/static/media/pngwing.com.e7bee027b28429efd543.png",
     "index.html": "/portfolio/index.html",
     "main.bba4e604.css.map": "/portfolio/static/css/main.bba4e604.css.map",
-    "main.57da8065.js.map": "/portfolio/static/js/main.57da8065.js.map"
+    "main.a767cf9d.js.map": "/portfolio/static/js/main.a767cf9d.js.map"
   },
   "entrypoints": [
     "static/css/main.bba4e604.css",
-    "static/js/main.57da8065.js"
+    "static/js/main.a767cf9d.js"
   ]
 }
