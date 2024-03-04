@@ -277,6 +277,12 @@ body{
   background-color: #fff;
 }
 
+/* project */
+
+.project{
+  background-color: #1d1d24;
+}
+
 
 /* navbar */
 @media (max-width: 768px) {
