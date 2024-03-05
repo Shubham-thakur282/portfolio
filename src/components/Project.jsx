@@ -5,7 +5,7 @@ import Box from "./Box";
 const Project = () => {
     return (
         <section className="project fluid-container" id="project">
-            <div className="album py-5 skills-container">
+            <div className="album py-5 project-container">
                 <div className="container">
                     <div className="box-heading">
                         <h1 className="nav-heading">Projects</h1>
